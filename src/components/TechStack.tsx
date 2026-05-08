@@ -33,6 +33,7 @@ const imageUrls = [
   "/images/shuffle.webp",
   "/images/bash logo.webp",
   "/images/python logo.webp",
+  "/images/ceh.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
