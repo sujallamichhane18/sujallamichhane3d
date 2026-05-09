@@ -23,7 +23,7 @@ const projects = [
       "with centralized monitoring. Integrates Wazuh SIEM for real-time event " +
       "correlation, pfSense firewall for perimeter protection.",
     image: "/images/multi-layer-security.png",
-    link: "#contact",
+    link: "https://github.com/sujallamichhane18/Multi-Layer-Security-Integration-Based-on-SIEM-Solutions",
   },
   {
     title: "Secure Network Monitoring",
