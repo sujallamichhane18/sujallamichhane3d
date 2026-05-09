@@ -51,21 +51,9 @@
 }
 
 .navbar-brand {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
-}
-
-.navbar-avatar {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 @media only screen and (min-width: 500px) {
   .header {
@@ -86,11 +74,6 @@
   .navbar-brand {
     font-size: 16px;
   }
-
-  .navbar-avatar {
-    width: 34px;
-    height: 34px;
-  }
 }
 @media only screen and (min-width: 1200px) {
   .header {
@@ -106,11 +89,6 @@
   .navbar-brand {
     font-size: 18px;
   }
-
-  .navbar-avatar {
-    width: 40px;
-    height: 40px;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -121,10 +99,5 @@
   }
   .navbar-brand {
     font-size: 12px;
-  }
-
-  .navbar-avatar {
-    width: 28px;
-    height: 28px;
   }
 }

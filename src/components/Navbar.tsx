@@ -48,12 +48,7 @@ const Navbar = () => {
           data-cursor="disable"
           aria-label="Sujal Lamichhane"
         >
-          <img
-            className="navbar-avatar"
-            src="/images/sujallamichhane.webp"
-            alt="Sujal Lamichhane"
-            loading="lazy"
-          />
+          SL
         </a>
         <a
           href="https://www.linkedin.com/in/sujal-lamichhane/"
