@@ -79,7 +79,9 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="#contact"
+            href="https://www.youtube.com/@sujallamichhane_"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaYoutube />
           </a>
