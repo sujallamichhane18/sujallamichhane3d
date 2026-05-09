@@ -228,7 +228,20 @@
   letter-spacing: 2px;
 }
 
+.landing-info-line {
+  margin-top: -12px;
+}
+
+.landing-info-line-secondary {
+  margin-top: -6px;
+}
+
 .landing-h2-info-1 {
+  position: absolute;
+  top: 0;
+}
+
+.landing-h2-extra-1 {
   position: absolute;
   top: 0;
 }

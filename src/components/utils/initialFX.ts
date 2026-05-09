@@ -36,8 +36,23 @@ export function initialFX() {
   let TextProps = { type: "chars,lines", linesClass: "split-h2" };
 
   var landingText2 = new SplitText(".landing-h2-info", TextProps);
+  var landingTextExtra = new SplitText(".landing-h2-extra", TextProps);
   gsap.fromTo(
     landingText2.chars,
+    { opacity: 0, y: 80, filter: "blur(5px)" },
+    {
+      opacity: 1,
+      duration: 1.2,
+      filter: "blur(0px)",
+      ease: "power3.inOut",
+      y: 0,
+      stagger: 0.025,
+      delay: 0.3,
+    }
+  );
+
+  gsap.fromTo(
+    landingTextExtra.chars,
     { opacity: 0, y: 80, filter: "blur(5px)" },
     {
       opacity: 1,
@@ -73,10 +88,12 @@ export function initialFX() {
   );
 
   var landingText3 = new SplitText(".landing-h2-info-1", TextProps);
+  var landingTextExtra2 = new SplitText(".landing-h2-extra-1", TextProps);
   var landingText4 = new SplitText(".landing-h2-1", TextProps);
   var landingText5 = new SplitText(".landing-h2-2", TextProps);
 
   LoopText(landingText2, landingText3);
+  LoopText(landingTextExtra, landingTextExtra2);
   LoopText(landingText4, landingText5);
 }
 

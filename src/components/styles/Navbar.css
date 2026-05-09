@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  align-items: center;
   max-width: var(--cMaxWidth);
   width: var(--cWidth);
   justify-content: space-between;
@@ -48,6 +49,12 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
 @media only screen and (min-width: 500px) {
   .header {
     padding: 20px 0px;
@@ -64,6 +71,9 @@
     font-size: 14px;
     letter-spacing: 1.2px;
   }
+  .navbar-brand {
+    font-size: 16px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .header {
@@ -76,11 +86,18 @@
   .navbar-title {
     font-size: 15px;
   }
+  .navbar-brand {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .navbar-title {
     font-size: 11px;
     letter-spacing: 0.6px;
+    max-width: 55%;
+  }
+  .navbar-brand {
+    font-size: 12px;
   }
 }

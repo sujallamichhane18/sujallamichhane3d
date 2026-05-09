@@ -42,6 +42,9 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
+        <a href="/#" className="navbar-brand" data-cursor="disable">
+          SL
+        </a>
         <a
           href="https://www.linkedin.com/in/sujal-lamichhane/"
           className="navbar-title"

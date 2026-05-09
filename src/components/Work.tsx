@@ -44,7 +44,7 @@ const projects = [
       "Demonstrates a working Site-to-Site IPsec VPN tunnel between a pfSense firewall " +
       "and a MikroTik router. Connects two LAN networks securely through an encrypted " +
       "IPsec tunnel for seamless inter-network communication.",
-    image: "/images/placeholder.webp",
+    image: "",
     link: "#contact",
   },
   {
@@ -54,7 +54,7 @@ const projects = [
       "Successfully configured a Remote SSL VPN using the Sophos Connect Client, " +
       "enhancing secure remote access with encrypted and authenticated connections " +
       "for seamless and secure data exchange.",
-    image: "/images/placeholder.webp",
+    image: "",
     link: "#contact",
   },
 ];
