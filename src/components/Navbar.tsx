@@ -42,8 +42,18 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-brand" data-cursor="disable">
-          SL
+        <a
+          href="/#"
+          className="navbar-brand"
+          data-cursor="disable"
+          aria-label="Sujal Lamichhane"
+        >
+          <img
+            className="navbar-avatar"
+            src="/images/sujallamichhane.webp"
+            alt="Sujal Lamichhane"
+            loading="lazy"
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/sujal-lamichhane/"
