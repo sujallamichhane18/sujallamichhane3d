@@ -43,7 +43,8 @@ const Career = () => {
               24/7 security monitoring and alert triage. FortiSOAR playbook
               creation for automated incident response, log analysis, and threat
               intelligence with OSINT investigations. MITRE ATT&CK framework
-              application for threat analysis.
+              application for threat analysis. Incident detection, analysis,
+              response, and report submission.
             </p>
           </div>
         </div>

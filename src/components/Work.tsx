@@ -7,22 +7,54 @@ const projects = [
   {
     title: "Security Operations Center",
     category: "Unified SOC Framework",
-    tools: "Open Source, Automation, SIEM Integration",
+    tools:
+      "Built a fully functional SOC environment integrating pfSense for perimeter " +
+      "defense, Wazuh as SIEM/SOAR, and threat intelligence platforms including " +
+      "VirusTotal, MISP, AlienVault, and AbuseIPDB. Automated incident response " +
+      "using TheHive and Cortex, with OpenEDR for endpoint detection and real-time " +
+      "Discord alerting.",
     image: "/images/unified-soc-framework-architecture.png",
     link: "https://github.com/sujallamichhane18/Integration-of-Open-Source-Security-Tools-for-a-Unified-SOC-Framework",
   },
   {
     title: "Multi-Layer Security",
     category: "Real-time Defense Stack",
-    tools: "Open Source, Real-time, Zabbix + Sophos + Cisco",
+    tools:
+      "Enterprise-grade security architecture implementing multiple defense layers " +
+      "with centralized monitoring. Integrates Wazuh SIEM for real-time event " +
+      "correlation, pfSense firewall for perimeter protection.",
     image: "/images/multi-layer-security.png",
     link: "#contact",
   },
   {
     title: "Secure Network Monitoring",
     category: "Network Monitoring",
-    tools: "Network Monitoring, SNMPv3",
+    tools:
+      "Implemented a secure network monitoring setup where a Sophos Firewall protects " +
+      "the network perimeter, a Cisco Router handles internal routing, and Zabbix " +
+      "monitors network devices and services using SNMPv3 for real-time detection of " +
+      "performance issues, failures, and security incidents.",
     image: "/images/zabbix-network-architecture.png",
+    link: "#contact",
+  },
+  {
+    title: "Site-to-Site IPsec VPN",
+    category: "Secure Inter-Network Connectivity",
+    tools:
+      "Demonstrates a working Site-to-Site IPsec VPN tunnel between a pfSense firewall " +
+      "and a MikroTik router. Connects two LAN networks securely through an encrypted " +
+      "IPsec tunnel for seamless inter-network communication.",
+    image: "/images/placeholder.webp",
+    link: "#contact",
+  },
+  {
+    title: "Remote SSL VPN Configuration",
+    category: "Secure Remote Access",
+    tools:
+      "Successfully configured a Remote SSL VPN using the Sophos Connect Client, " +
+      "enhancing secure remote access with encrypted and authenticated connections " +
+      "for seamless and secure data exchange.",
+    image: "/images/placeholder.webp",
     link: "#contact",
   },
 ];
