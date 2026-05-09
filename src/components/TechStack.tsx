@@ -180,7 +180,7 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="techstack">
+    <section className="techstack" id="tools">
       <h2> My Toolkit</h2>
 
       <Canvas
@@ -220,7 +220,7 @@ const TechStack = () => {
           <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
         </EffectComposer>
       </Canvas>
-    </div>
+    </section>
   );
 };
 

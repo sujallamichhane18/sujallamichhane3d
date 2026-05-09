@@ -25,7 +25,7 @@ const WhatIDo = () => {
     };
   }, []);
   return (
-    <div className="whatIDO">
+    <section className="whatIDO" id="services">
       <div className="what-box">
         <h2 className="title">
           W<span className="hat-h2">HAT</span>
@@ -90,8 +90,9 @@ const WhatIDo = () => {
               <h3>PENETRATION TESTING</h3>
               <h4>Security Services</h4>
               <p>
-                Identify vulnerabilities in your infrastructure before attackers do.
-                Web apps, networks, and cloud environments.
+                Identify vulnerabilities before attackers do through structured
+                penetration testing and vulnerability assessment across web apps,
+                networks, and cloud environments.
               </p>
               <h5>Focus areas</h5>
               <div className="what-content-flex">
@@ -126,8 +127,8 @@ const WhatIDo = () => {
               <h3>SECURITY ASSESSMENT</h3>
               <h4>SOC Operations &amp; Vulnerability Management</h4>
               <p>
-                Comprehensive security audits, 24/7 monitoring, and systematic
-                remediation aligned to industry frameworks.
+                SOC operations, 24/7 security monitoring, and incident response
+                aligned to industry frameworks and SIEM/SOAR workflows.
               </p>
               <h5>Capabilities</h5>
               <div className="what-content-flex">
@@ -142,7 +143,7 @@ const WhatIDo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -83,7 +83,7 @@ const Work = () => {
   }, [currentIndex, goToSlide]);
 
   return (
-    <div className="work-section" id="work">
+    <section className="work-section" id="work" aria-label="Portfolio projects">
       <div className="work-container section-container">
         <h2>
           Portfolio <span>Projects</span>
@@ -167,7 +167,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

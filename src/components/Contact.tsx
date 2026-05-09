@@ -3,14 +3,14 @@ import "./styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-section section-container" id="contact">
+    <section className="contact-section section-container" id="contact">
       <div className="contact-container">
         <h3>Let's Connect</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Available for Hire</h4>
-            <p>Want me in your team?</p>
-            <p>Get in Touch</p>
+            <h4>Freelance &amp; Consulting</h4>
+            <p>Available for remote and Nepal-based roles.</p>
+            <p>Get in touch for SOC, SIEM/SOAR, and penetration testing.</p>
             <p>
               <a
                 href="https://www.linkedin.com/in/sujal-lamichhane/"
@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

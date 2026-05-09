@@ -210,12 +210,21 @@
   letter-spacing: 2px;
   font-weight: 300;
   color: var(--accentColor);
-  margin: 0;
+  margin: 0 0 6px;
+}
+
+.landing-info-subhead {
+  margin: 0 0 18px;
+  max-width: 520px;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  color: #cbd2d9;
 }
 
 .landing-info h2 {
   margin: 0;
-  margin-top: -20px;
+  margin-top: -12px;
   margin-left: 20px;
   font-family: "Geist", sans-serif;
   font-weight: 600;
@@ -229,7 +238,7 @@
 }
 
 .landing-info-line {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .landing-h2-info-1 {
@@ -279,6 +288,10 @@ h2.landing-info-h2 {
     font-size: 18px;
   }
 
+  .landing-info-subhead {
+    font-size: 13px;
+  }
+
   .landing-intro h2 {
     font-size: 18px;
   }
@@ -314,6 +327,11 @@ h2.landing-info-h2 {
 
   .landing-info h3 {
     font-size: 25px;
+  }
+
+  .landing-info-subhead {
+    font-size: 15px;
+    max-width: 560px;
   }
 
   .landing-info h2 {
@@ -388,6 +406,11 @@ h2.landing-info-h2 {
 
   .landing-info h3 {
     font-size: 35px;
+  }
+
+  .landing-info-subhead {
+    font-size: 18px;
+    max-width: 620px;
   }
 
   .landing-info h2 {
