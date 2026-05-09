@@ -31,22 +31,22 @@
   cursor: pointer;
 }
 .navbar-connect {
-  position: absolute;
   display: none;
+}
+.navbar-title {
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 15px;
-  letter-spacing: 1px;
-  font-weight: 500;
-}
-.navbar-title {
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: lowercase;
   white-space: nowrap;
   opacity: 0.85;
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 @media only screen and (min-width: 500px) {
   .header {
@@ -65,20 +65,12 @@
     letter-spacing: 1.2px;
   }
 }
-@media only screen and (min-width: 900px) {
-  .navbar-connect {
-    display: block;
-  }
-}
 @media only screen and (min-width: 1200px) {
   .header {
     padding: 35px 0px;
   }
   .header ul {
     column-gap: 80px;
-    font-size: 16px;
-  }
-  .navbar-connect {
     font-size: 16px;
   }
   .navbar-title {

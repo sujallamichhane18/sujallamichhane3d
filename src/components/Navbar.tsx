@@ -51,13 +51,6 @@ const Navbar = () => {
         >
           linkedin.com/in/sujal-lamichhane
         </a>
-        <a
-          href="#contact"
-          className="navbar-connect"
-          data-cursor="disable"
-        >
-          Get in Touch
-        </a>
         <ul>
           <li>
             <a data-href="#about" href="#about">
