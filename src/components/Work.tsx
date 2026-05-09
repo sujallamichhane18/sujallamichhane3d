@@ -4,8 +4,8 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Security Operations Center",
-    category: "Unified SOC Framework",
+    title: "Unified SOC Framework Integration of Open-Source Security Tools",
+    category: "Comprehensive Security Operations Center",
     tools:
       "Built a fully functional SOC environment integrating pfSense for perimeter " +
       "defense, Wazuh as SIEM/SOAR, and threat intelligence platforms including " +
@@ -16,7 +16,7 @@ const projects = [
     link: "https://github.com/sujallamichhane18/Integration-of-Open-Source-Security-Tools-for-a-Unified-SOC-Framework",
   },
   {
-    title: "Multi-Layer Security",
+    title: "Multi-Layer Security Integration Based on SIEM Solutions",
     category: "Real-time Defense Stack",
     tools:
       "Enterprise-grade security architecture implementing multiple defense layers " +
@@ -26,7 +26,7 @@ const projects = [
     link: "https://github.com/sujallamichhane18/Multi-Layer-Security-Integration-Based-on-SIEM-Solutions",
   },
   {
-    title: "Secure Network Monitoring",
+    title: "Secure Network Monitoring Architecture with Sophos Firewall, Cisco Router, and Zabbix",
     category: "Network Monitoring",
     tools:
       "Implemented a secure network monitoring setup where a Sophos Firewall protects " +
@@ -37,12 +37,21 @@ const projects = [
     link: "#contact",
   },
   {
-    title: "Remote SSL VPN Configuration",
+    title: "Remote SSL VPN Configuration with Sophos Connect Client",
     category: "Secure Remote Access",
     tools:
       "Successfully configured a Remote SSL VPN using the Sophos Connect Client, " +
       "enhancing secure remote access with encrypted and authenticated connections " +
       "for seamless and secure data exchange.",
+    link: "#contact",
+  },
+  {
+    title: "MPLS Layer 3 VPN Architecture Design and Simulation in GNS3",
+    category: "Advanced Networking",
+    tools:
+      "Designed and simulated a full MPLS L3 VPN topology in GNS3, configuring PE/CE " +
+      "routers for multi-site enterprise routing with label-switched path verification " +
+      "and secure backbone segmentation.",
     link: "#contact",
   },
 ];
@@ -124,6 +133,17 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.link?.startsWith("http") && (
+                          <a
+                            className="project-link"
+                            href={project.link}
+                            target="_blank"
+                            rel="noreferrer"
+                            data-cursor="disable"
+                          >
+                            View on GitHub
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
