@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 
 interface Props {
-  image: string;
+  image?: string;
   alt?: string;
   video?: string;
   link?: string;
@@ -25,7 +25,7 @@ const WorkImage = (props: Props) => {
     <div className="work-image">
       <a
         className="work-image-in"
-        href={props.link}
+        href={props.link ?? "#"}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={() => setIsVideo(false)}
         target="_blank"
@@ -36,7 +36,11 @@ const WorkImage = (props: Props) => {
             <MdArrowOutward />
           </div>
         )}
-        <img src={props.image} alt={props.alt} />
+        {props.image ? (
+          <img src={props.image} alt={props.alt ?? "Project preview"} />
+        ) : (
+          <div className="work-image-placeholder">Image coming soon</div>
+        )}
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
       </a>
     </div>
