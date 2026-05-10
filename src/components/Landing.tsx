@@ -15,18 +15,14 @@ const Landing = ({ children }: PropsWithChildren) => {
             </h1>
           </div>
           <div className="landing-info">
-            <h3>Cybersecurity Analyst &amp; Certified Ethical Hacker</h3>
-            <p className="landing-info-subhead">
-              Specializing in SOC operations, threat detection, SIEM/SOAR,
-              penetration testing, and incident response.
-            </p>
+            <h3>Certified Ethical Hacker</h3>
             <h2 className="landing-info-h2">
               <div className="landing-h2-1">SOC</div>
-              <div className="landing-h2-2">Operations</div>
+              <div className="landing-h2-2">Security</div>
             </h2>
             <h2 className="landing-info-line">
-              <div className="landing-h2-info">Threat Hunter</div>
-              <div className="landing-h2-info-1">Penetration Tester</div>
+              <div className="landing-h2-info">Analyst</div>
+              <div className="landing-h2-info-1">Researcher</div>
             </h2>
           </div>
         </div>

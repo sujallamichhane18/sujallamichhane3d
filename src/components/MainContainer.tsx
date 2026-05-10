@@ -3,10 +3,8 @@ import About from "./About";
 import Career from "./Career";
 import Contact from "./Contact";
 import Cursor from "./Cursor";
-import Expertise from "./Expertise";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
-import SeoResources from "./SeoResources";
 import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
@@ -42,11 +40,9 @@ const MainContainer = ({ children }: PropsWithChildren) => {
           <div className="container-main">
             <Landing>{!isDesktopView && children}</Landing>
             <About />
-            <Expertise />
             <WhatIDo />
             <Career />
             <Work />
-            <SeoResources />
             {isDesktopView && (
               <Suspense fallback={<div>Loading....</div>}>
                 <TechStack />
